@@ -1,0 +1,191 @@
+html{
+    width: 480px;
+    height: 768px;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    
+     /* vertical-align: middle; */
+
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid green;
+    position: relative;
+    /* vertical-align: middle; */
+    line-height: 75px;
+    background-color: grey;
+
+   
+}
+
+#b {
+    height: 150px;
+    width: 100%;
+    border: 1px solid salmon;
+    line-height: 150px;
+    background-color: grey;
+
+}
+
+#c, #d {
+    height: 125px;
+    width: 100%;
+    border: 1px solid sienna;
+    line-height: 125px;
+    background-color: grey;
+}
+
+
+#e {
+    height: 250px;
+    width: 49.6%;
+    border: 1px solid purple;
+    float:left;
+    line-height: 250px;
+    background-color: grey;
+}
+
+#f {
+    height: 250px;
+    width: 49.6%;
+    border: 1px solid purple;
+    float: left;
+    line-height: 250px;
+    background-color: grey;
+}
+
+#g {
+    height: 250px;
+    width: 49.6%;
+    border: 1px solid purple;
+    float: left;
+    line-height: 250px;
+    background-color: grey;
+}
+
+#h {
+    height: 250px;
+    width: 49.6%;
+    border: 1px solid purple;
+    display: block;
+    float: left;
+    line-height: 250px;
+    background-color: grey;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    border: 1px solid darkcyan;
+    float: left;
+    line-height: 80px;
+    background-color: grey;
+}
+
+@media(min-width: 768px){
+    html {
+        height: 768px;
+        width: 960px;
+        margin:0 auto;
+    }
+
+    header {
+        box-sizing: border-box;
+        height: 100px;
+        width: 100%;
+        position: relative;
+        line-height: 100px;
+        /* float: left; */
+    }
+
+    #b {
+        box-sizing: border-box;
+        height: 600px;
+        width: 20%;
+        /* position: relative; */
+        line-height: 600px;
+        float: left;
+    }
+
+    
+
+    #c {
+        box-sizing: border-box;
+        height: 200px;
+        width: 375px;
+        line-height: 200px;
+        float: left;
+        /* position: absolute; */
+        /* display:  */
+    }
+
+    #d {
+        box-sizing: border-box;
+        height: 200px;
+        width: 375px;
+        line-height: 200px;
+        float: left;
+        /* display: block; */
+
+    }
+
+    /* .small-boxes {
+        height: 250px;
+        width: 190px;
+        line-height: 380px;
+        float:left;
+    } */
+
+    #e {
+        box-sizing: border-box;
+        height: 250px;
+        width: 186px;
+        line-height: 200px;
+        float: left;
+        float: left;
+    }
+
+    #f {
+        box-sizing: border-box;
+        height: 250px;
+        width: 186px;
+        line-height: 200px;
+        float: left;
+        float:left;
+    }
+
+    #g {
+        box-sizing: border-box;
+        height: 250px;
+        width: 186px;
+        line-height: 200px;
+        float: left;
+        /* float: left; */
+
+    }
+
+    #h { 
+        box-sizing: border-box;
+        height: 250px;
+        width: 186px;
+        line-height: 200px;
+        /* float: left; */
+        float: left;
+    
+    }
+
+    footer {
+        box-sizing: border-box;
+        height: 148px;
+        width: 750px;
+        line-height: 150px;
+        float: left;
+    }
+
+}
